@@ -1,1 +1,45 @@
+@font-face {
+  font-family: 'Tsukimi Rounded';
+  src: url('/fonts/TsukimiRounded-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tsukimi Rounded';
+  src: url('/fonts/TsukimiRounded-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tsukimi Rounded';
+  src: url('/fonts/TsukimiRounded-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tsukimi Rounded';
+  src: url('/fonts/TsukimiRounded-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tsukimi Rounded';
+  src: url('/fonts/TsukimiRounded-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @import "tailwindcss";
+
+@theme {
+    --font-tsukimi: "Tsukimi Rounded", sans-serif; 
+  }
